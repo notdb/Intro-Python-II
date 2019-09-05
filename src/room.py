@@ -8,7 +8,7 @@ class Room:
         self.description = description
 
     def __str__(self):
-        return f"Name: {self.name} \n Description: {self.description}"
+        return f"{self.name} \n Description: {self.description}"
 
     def n_to(self):
         return 1
